@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/my_project/__init__.py
+src/my_project.egg-info/PKG-INFO
+src/my_project.egg-info/SOURCES.txt
+src/my_project.egg-info/dependency_links.txt
+src/my_project.egg-info/top_level.txt
+src/my_project/Components/__init__.py
+src/my_project/config/__init__.py
+src/my_project/config/configuration.py
+src/my_project/contents/__init__.py
+src/my_project/entity/__init__.py
+src/my_project/entity/config_entity.py
+src/my_project/pipeline/__init__.py
+src/my_project/utils/__init__.py
+src/my_project/utils/common.py

@@ -1,0 +1,794 @@
+[2025-06-02 08:23:32,975: INFO : main : logging]
+[2025-06-02 08:32:43,795: INFO : main : logging]
+[2025-06-08 11:00:35,597: INFO : main : logging]
+[2025-06-14 10:36:56,598: ERROR : main : name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 7, in <module>
+    logger.info(f">> stage {STAGE_NAME} has started >>>>")
+                            ^^^^^^^^^^
+NameError: name 'STAGE_NAME' is not defined
+[2025-06-14 10:37:46,559: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 10:37:46,561: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 10:37:46,589: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 10:37:46,599: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 10:37:46,600: ERROR : main : "'ConfigBox' object has no attribute 'artifacts_root_'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'artifacts_root_'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root_'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'artifacts_root_'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 22, in __init__
+    create_directories([self.config.artifacts_root_])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root_'"
+[2025-06-14 10:44:22,840: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 10:44:22,842: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 10:44:22,843: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 10:44:22,845: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 10:44:22,846: ERROR : main : "'ConfigBox' object has no attribute 'artifacts_root_'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'artifacts_root_'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root_'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'artifacts_root_'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root_'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 22, in __init__
+    create_directories([self.config.artifacts_root_])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root_'"
+[2025-06-14 10:49:08,803: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 10:49:08,805: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 10:49:08,806: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 10:49:08,811: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 10:49:08,814: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:49:08,817: ERROR : main : Argument path_to_directories of type <class 'str'> to <function create_directories at 0x7f5bb8e82fc0> does not match annotation type <class 'list'>]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 27, in get_data_ingestion_config
+    create_directories(config.root_dir)
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/ensure/main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x7f5bb8e82fc0> does not match annotation type <class 'list'>
+[2025-06-14 10:53:08,464: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:53:08,484: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 10:53:08,503: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 10:53:08,505: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 10:53:08,511: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 10:53:08,512: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:53:08,512: ERROR : main : Argument path_to_directories of type <class 'str'> to <function create_directories at 0x7fcbd253efc0> does not match annotation type <class 'list'>]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 28, in get_data_ingestion_config
+    create_directories(config.root_dir)
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/ensure/main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x7fcbd253efc0> does not match annotation type <class 'list'>
+[2025-06-14 10:55:55,540: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:55:55,581: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 10:55:55,583: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 10:55:55,586: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 10:55:55,590: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 10:55:55,596: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:55:55,596: ERROR : main : Argument path_to_directories of type <class 'str'> to <function create_directories at 0x7f93b8a9efc0> does not match annotation type <class 'list'>]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 29, in get_data_ingestion_config
+    create_directories(config.root_dir)
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/ensure/main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x7f93b8a9efc0> does not match annotation type <class 'list'>
+[2025-06-14 10:57:55,555: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:57:55,574: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 10:57:55,576: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 10:57:55,577: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 10:57:55,579: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 10:57:55,580: INFO : common : Created directory at: artifacts]
+[2025-06-14 10:57:55,581: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 10:57:55,581: ERROR : main : name 'DataIngestionConfig' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 31, in get_data_ingestion_config
+    data_download = DataIngestionConfig(
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataIngestionConfig' is not defined
+[2025-06-14 11:01:29,476: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:04:05,895: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:06:12,196: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:06:38,473: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:06:38,504: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:06:38,507: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:06:38,508: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:06:38,511: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:06:38,512: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:06:38,513: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:06:38,513: ERROR : main : name 'config_root_dir' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 32, in get_data_ingestion_config
+    root_dir=config_root_dir,
+             ^^^^^^^^^^^^^^^
+NameError: name 'config_root_dir' is not defined
+[2025-06-14 11:07:53,493: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:07:53,514: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:07:53,516: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:07:53,516: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:07:53,519: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:07:53,519: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:07:53,520: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:07:53,520: ERROR : main : "'ConfigBox' object has no attribute 'source_url'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 33, in get_data_ingestion_config
+    source_url=config.source_url,
+               ^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+[2025-06-14 11:10:50,214: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:10:50,234: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:10:50,236: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:10:50,237: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:10:50,240: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:10:50,240: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:10:50,241: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:10:50,241: ERROR : main : "'ConfigBox' object has no attribute 'source_url'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 33, in get_data_ingestion_config
+    source_url=config.source_url,
+               ^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+[2025-06-14 11:11:36,011: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:11:36,030: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:11:36,032: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:11:36,032: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:11:36,035: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:11:36,035: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:11:36,035: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:11:36,036: ERROR : main : "'ConfigBox' object has no attribute 'source_url'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 33, in get_data_ingestion_config
+    source_URL=config.source_url,
+               ^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+[2025-06-14 11:12:58,159: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:12:58,179: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:12:58,181: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:12:58,182: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:12:58,184: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:12:58,185: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:12:58,185: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:12:58,185: ERROR : main : "'ConfigBox' object has no attribute 'unzip_dir'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 35, in get_data_ingestion_config
+    unzip_dir=config.unzip_dir
+              ^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+[2025-06-14 11:14:14,997: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:14:15,017: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:14:15,019: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:14:15,019: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:14:15,022: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:14:15,022: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:14:15,023: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:14:15,023: ERROR : main : "'ConfigBox' object has no attribute 'unzip_dir'"]
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 35, in get_data_ingestion_config
+    unzip_dir=config.unzip_dir
+              ^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/anaconda3/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+[2025-06-14 11:14:44,778: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:14:44,797: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:14:44,799: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:14:44,800: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:14:44,803: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:14:44,803: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:14:44,804: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:14:44,804: ERROR : main : DataIngestionConfig.__init__() got an unexpected keyword argument 'source_url']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 31, in get_data_ingestion_config
+    data_download = DataIngestionConfig(
+                    ^^^^^^^^^^^^^^^^^^^^
+TypeError: DataIngestionConfig.__init__() got an unexpected keyword argument 'source_url'
+[2025-06-14 11:18:03,579: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:18:03,600: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:18:03,602: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:18:03,603: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:18:03,605: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:18:03,606: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:18:03,606: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:18:03,607: ERROR : main : module 'os' has no attribute 'path_existas']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_ingestion.py", line 14, in download_file
+    if not os.path_existas(self.config.local_data_file):
+           ^^^^^^^^^^^^^^^
+AttributeError: module 'os' has no attribute 'path_existas'
+[2025-06-14 11:18:49,997: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:18:50,020: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:18:50,022: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:18:50,023: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:18:50,025: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:18:50,026: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:18:50,026: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:18:50,026: ERROR : main : module 'os' has no attribute 'path_exists']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_ingestion.py", line 14, in download_file
+    if not os.path_exists(self.config.local_data_file):
+           ^^^^^^^^^^^^^^
+AttributeError: module 'os' has no attribute 'path_exists'
+[2025-06-14 11:21:06,604: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:21:06,629: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:21:06,631: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:21:06,632: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:21:06,634: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:21:06,635: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:21:06,635: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:21:06,676: ERROR : main : 'DataIngestionConfig' object has no attribute 'local']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 10, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/stage_1_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_ingestion.py", line 17, in download_file
+    filename = self.config.local-data_file
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'local'
+[2025-06-14 11:25:53,308: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:25:53,332: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-14 11:25:53,334: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-14 11:25:53,334: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-14 11:25:53,337: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-14 11:25:53,337: INFO : common : Created directory at: artifacts]
+[2025-06-14 11:25:53,337: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-14 11:25:56,071: INFO : data_ingestion : artifacts/data_ingestion/data.zip download: with the following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 68D7:15A646:DFFE79:11A86F1:684D3212
+Accept-Ranges: bytes
+Date: Sat, 14 Jun 2025 08:25:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990032-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1749889555.415016,VS0,VE380
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 49d66bfb004d8b97ad636cdcf0e02b855da10266
+Expires: Sat, 14 Jun 2025 08:30:55 GMT
+Source-Age: 0
+
+]
+[2025-06-14 11:25:56,104: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]

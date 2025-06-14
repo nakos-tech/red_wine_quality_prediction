@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: my_project
+Version: 0.0.0
+Summary: A small Python package for Red Wine Quality Prediction
+Home-page: https://github.com/nakos_tech/Red_wine_quality_prediction
+Author: nakos_tech
+Project-URL: Bug Tracker, https://github.com/nakos_tech/Red_wine_quality_prediction/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# End-to-end-ML-project
+
+"""bash
+conda create -n myproj python=3.11.11 -y 
+"""
