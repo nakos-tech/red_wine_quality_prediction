@@ -1,0 +1,7 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+includedir=${prefix}/include
+ 
+Name: XF86DRIProto
+Description: XF86DRI extension headers
+Version: 2.1.1
+Cflags: -I${includedir}/X11/dri

@@ -1,0 +1,7 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+includedir=${prefix}/include
+
+Name: CompositeExt
+Description: Composite extension headers
+Version: 0.4.2
+Cflags: -I${includedir}

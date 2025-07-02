@@ -792,3 +792,618 @@ Source-Age: 0
 
 ]
 [2025-06-14 11:25:56,104: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-19 11:43:17,245: INFO : common : Created directory at: artifacts]
+[2025-06-19 11:57:56,780: INFO : common : Created directory at: artifacts]
+[2025-06-19 11:59:28,371: INFO : common : Created directory at: artifacts]
+[2025-06-19 11:59:28,420: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-19 11:59:28,422: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-19 11:59:28,424: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-19 11:59:28,426: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-19 11:59:28,427: INFO : common : Created directory at: artifacts]
+[2025-06-19 11:59:28,427: ERROR : main : 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 11, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/ingestion_stage.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-06-19 23:35:13,251: INFO : common : Created directory at: artifacts]
+[2025-06-19 23:35:13,743: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-19 23:35:13,759: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-19 23:35:13,802: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-19 23:35:13,805: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-19 23:35:13,808: INFO : common : Created directory at: artifacts]
+[2025-06-19 23:35:13,810: ERROR : main : 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 11, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/ingestion_stage.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-06-19 23:44:21,512: INFO : common : Created directory at: artifacts]
+[2025-06-19 23:44:21,531: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-19 23:44:21,534: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-19 23:44:21,535: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-19 23:44:21,537: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-19 23:44:21,537: INFO : common : Created directory at: artifacts]
+[2025-06-19 23:44:21,537: ERROR : main : 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 11, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/ingestion_stage.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-06-19 23:57:44,065: INFO : common : Created directory at: artifacts]
+[2025-06-19 23:57:44,087: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-19 23:57:44,089: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-19 23:57:44,090: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-19 23:57:44,092: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-19 23:57:44,093: INFO : common : Created directory at: artifacts]
+[2025-06-19 23:57:44,093: ERROR : main : 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 11, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/ingestion_stage.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-06-20 00:00:07,194: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:00:07,215: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 00:00:07,217: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:00:07,218: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:00:07,220: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:00:07,220: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:00:07,220: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 00:00:07,221: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 00:00:07,332: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 00:00:07,332: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 00:00:07,335: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:00:07,337: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:00:07,341: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:00:07,342: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:00:07,343: ERROR : main : 'ValidationConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 13, in main
+    data_validation_config = config.get_data_ingestion_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ValidationConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-06-20 00:05:10,299: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:05:10,320: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 00:05:10,323: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:05:10,323: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:05:10,325: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:05:10,326: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:05:10,326: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 00:05:10,327: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 00:05:10,329: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 00:05:10,329: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 00:05:10,331: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:05:10,332: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:05:10,334: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:05:10,335: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:05:10,381: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 00:05:10,381: ERROR : main : name 'pd' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 15, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 35, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 17, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+           ^^
+NameError: name 'pd' is not defined
+[2025-06-20 00:06:25,875: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:06:31,413: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-20 00:06:34,127: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 00:06:34,131: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:06:34,133: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:06:34,136: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:06:34,137: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:06:34,138: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 00:06:34,138: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 00:06:34,142: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 00:06:34,142: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 00:06:34,144: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:06:34,145: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:06:34,147: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:06:34,148: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:06:34,148: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 00:06:34,148: ERROR : main : 'NoneType' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 15, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_data_dir'
+[2025-06-20 00:07:10,236: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:07:10,477: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-20 00:07:10,699: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 00:07:10,702: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:07:10,702: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:07:10,705: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:07:10,705: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:07:10,706: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 00:07:10,706: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 00:07:10,708: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 00:07:10,708: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 00:07:10,710: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 00:07:10,711: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 00:07:10,713: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 00:07:10,714: INFO : common : Created directory at: artifacts]
+[2025-06-20 00:07:10,714: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 00:07:10,714: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 15, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-20 09:16:17,267: INFO : common : Created directory at: artifacts]
+[2025-06-20 09:16:23,566: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-20 09:16:26,627: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 09:16:26,651: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 09:16:26,653: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 09:16:26,657: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 09:16:26,659: INFO : common : Created directory at: artifacts]
+[2025-06-20 09:16:26,660: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 09:16:26,660: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 09:16:26,678: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 09:16:26,678: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 09:16:26,683: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 09:16:26,684: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 09:16:26,686: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 09:16:26,687: INFO : common : Created directory at: artifacts]
+[2025-06-20 09:16:26,687: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 09:16:26,687: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 15, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-20 09:35:57,240: INFO : common : Created directory at: artifacts]
+[2025-06-20 09:35:58,516: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-20 09:35:59,333: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 09:35:59,335: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 09:35:59,336: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 09:35:59,339: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 09:35:59,339: INFO : common : Created directory at: artifacts]
+[2025-06-20 09:35:59,339: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 09:35:59,340: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 09:35:59,358: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 09:35:59,358: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 09:35:59,360: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 09:35:59,361: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 09:35:59,363: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 09:35:59,363: INFO : common : Created directory at: artifacts]
+[2025-06-20 09:35:59,363: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 09:35:59,363: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 17, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-20 10:46:44,419: INFO : common : Created directory at: artifacts]
+[2025-06-20 10:46:44,664: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-20 10:46:44,890: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 10:46:44,893: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 10:46:44,895: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 10:46:44,897: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 10:46:44,897: INFO : common : Created directory at: artifacts]
+[2025-06-20 10:46:44,898: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 10:46:44,898: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 10:46:44,900: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 10:46:44,901: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 10:46:44,902: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 10:46:44,903: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 10:46:44,905: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 10:46:44,906: INFO : common : Created directory at: artifacts]
+[2025-06-20 10:46:44,906: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 10:46:44,906: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 17, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-20 10:51:21,931: INFO : common : Created directory at: artifacts]
+[2025-06-20 10:51:24,495: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-20 10:51:26,457: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-20 10:51:26,462: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 10:51:26,463: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 10:51:26,466: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 10:51:26,466: INFO : common : Created directory at: artifacts]
+[2025-06-20 10:51:26,467: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-20 10:51:26,467: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-20 10:51:26,482: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-20 10:51:26,482: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-20 10:51:26,484: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-20 10:51:26,484: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-20 10:51:26,486: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-20 10:51:26,487: INFO : common : Created directory at: artifacts]
+[2025-06-20 10:51:26,487: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-20 10:51:26,487: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 17, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-29 09:29:41,919: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:29:50,443: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-29 09:29:55,335: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-29 09:29:55,386: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:29:55,420: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:29:55,431: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:29:55,439: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:29:55,477: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-29 09:29:55,479: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-29 09:29:55,516: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-29 09:29:55,522: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-29 09:29:55,527: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:29:55,557: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:29:55,575: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:29:55,584: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:29:55,585: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-29 09:29:55,586: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 17, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-29 09:50:37,373: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:50:40,711: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-29 09:50:43,593: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-29 09:50:43,598: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:50:43,601: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:50:43,606: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:50:43,607: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:50:43,607: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-29 09:50:43,608: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-29 09:50:43,653: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-29 09:50:43,653: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-29 09:50:43,655: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:50:43,658: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:50:43,661: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:50:43,662: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:50:43,662: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-29 09:50:43,663: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 17, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-29 09:51:02,749: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:51:02,998: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-29 09:51:03,284: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-29 09:51:03,290: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:51:03,296: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:51:03,299: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:51:03,304: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:51:03,305: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-29 09:51:03,305: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-29 09:51:03,310: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-29 09:51:03,311: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-29 09:51:03,313: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:51:03,314: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:51:03,317: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:51:03,319: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:51:03,320: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-29 09:51:03,320: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 17, in main
+    data_validation.validate_all_columns()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 18, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-29 09:54:08,861: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:55:20,211: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:56:52,904: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:56:57,093: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-29 09:56:57,858: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-29 09:56:57,861: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:56:57,862: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:56:57,866: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:56:57,867: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:56:57,868: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-29 09:56:57,869: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-29 09:56:57,871: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-29 09:56:57,871: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-29 09:56:57,873: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:56:57,874: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:56:57,876: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:56:57,877: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:56:57,877: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-29 09:56:57,877: ERROR : main : 'NoneType' object has no attribute 'get']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 16, in main
+    data_validation = DataValidation(config=data_validation_config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 14, in __init__
+    print(self.config.get('data_validation'))
+          ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+[2025-06-29 09:58:26,515: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:58:26,778: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-29 09:58:27,013: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-29 09:58:27,018: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:58:27,019: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:58:27,023: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:58:27,023: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:58:27,024: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-29 09:58:27,024: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-29 09:58:27,027: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-29 09:58:27,027: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-29 09:58:27,029: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-29 09:58:27,031: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-29 09:58:27,034: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-29 09:58:27,034: INFO : common : Created directory at: artifacts]
+[2025-06-29 09:58:27,035: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-29 09:58:27,035: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 16, in main
+    data_validation = DataValidation(config=data_validation_config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 14, in __init__
+    print(self.config.unzip_dir)
+          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-06-30 22:28:24,701: INFO : common : Created directory at: artifacts]
+[2025-06-30 22:28:31,679: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-06-30 22:28:34,426: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-06-30 22:28:34,441: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-30 22:28:34,465: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-30 22:28:34,472: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-30 22:28:34,473: INFO : common : Created directory at: artifacts]
+[2025-06-30 22:28:34,475: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-06-30 22:28:34,476: INFO : data_ingestion : file already exists: 23 KB]
+[2025-06-30 22:28:34,511: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-06-30 22:28:34,511: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-06-30 22:28:34,514: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-06-30 22:28:34,515: INFO : common : YML file: params.yaml loaded successfully]
+[2025-06-30 22:28:34,518: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-06-30 22:28:34,519: INFO : common : Created directory at: artifacts]
+[2025-06-30 22:28:34,519: INFO : common : Created directory at: artifacts/data_validation]
+[2025-06-30 22:28:34,519: ERROR : main : 'NoneType' object has no attribute 'unzip_dir']
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 25, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/validation_stage.py", line 16, in main
+    data_validation = DataValidation(config=data_validation_config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_validation.py", line 14, in __init__
+    print(self.config.unzip_dir)
+          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_dir'
+[2025-07-01 00:43:11,555: INFO : common : Created directory at: artifacts]
+[2025-07-01 00:43:17,595: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-01 00:43:20,113: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-07-01 00:43:20,128: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-01 00:43:20,129: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-01 00:43:20,131: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-01 00:43:20,131: INFO : common : Created directory at: artifacts]
+[2025-07-01 00:43:20,132: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-07-01 00:43:20,132: INFO : data_ingestion : file already exists: 23 KB]
+[2025-07-01 00:43:20,152: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-07-01 00:43:20,152: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-07-01 00:43:20,154: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-01 00:43:20,155: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-01 00:43:20,157: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-01 00:43:20,158: INFO : common : Created directory at: artifacts]
+[2025-07-01 00:43:20,158: INFO : common : Created directory at: artifacts/data_validation]
+[2025-07-01 00:43:20,359: INFO : main : >>>> stage Data Validation stage completed >>>>>]
+[2025-07-01 00:47:52,141: INFO : common : Created directory at: artifacts]
+[2025-07-01 00:47:52,507: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-01 00:47:53,101: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-07-01 00:47:53,104: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-01 00:47:53,106: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-01 00:47:53,110: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-01 00:47:53,110: INFO : common : Created directory at: artifacts]
+[2025-07-01 00:47:53,111: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-07-01 00:47:53,112: INFO : data_ingestion : file already exists: 23 KB]
+[2025-07-01 00:47:53,114: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-07-01 00:47:53,114: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-07-01 00:47:53,116: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-01 00:47:53,117: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-01 00:47:53,120: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-01 00:47:53,121: INFO : common : Created directory at: artifacts]
+[2025-07-01 00:47:53,121: INFO : common : Created directory at: artifacts/data_validation]
+[2025-07-01 00:47:53,136: INFO : main : >>>> stage Data Validation stage completed >>>>>]
+[2025-07-02 07:58:05,183: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:03:43,454: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:06:21,899: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:12:24,763: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:12:25,133: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:14:24,297: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:14:24,740: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:15:27,687: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:15:27,933: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:16:03,575: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:16:03,817: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:19:48,592: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:19:48,834: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:19:48,881: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-07-02 08:19:48,925: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:19:48,926: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:19:48,930: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:19:48,931: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:19:48,931: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-07-02 08:19:48,932: INFO : data_ingestion : file already exists: 23 KB]
+[2025-07-02 08:19:48,961: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-07-02 08:19:48,963: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-07-02 08:19:48,966: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:19:48,967: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:19:48,970: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:19:48,970: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:19:48,970: INFO : common : Created directory at: artifacts/data_validation]
+[2025-07-02 08:19:48,982: INFO : main : >>>> stage Data Validation stage completed >>>>>]
+[2025-07-02 08:19:48,982: INFO : main : >> stage Data Transformation stage has started >>>>]
+[2025-07-02 08:19:48,984: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:19:48,985: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:19:48,988: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:19:48,989: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:19:48,989: INFO : common : Created directory at: artifacts/data_transformation]
+[2025-07-02 08:19:48,989: ERROR : main : name 'BASE_DIR' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 23, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/transformation_stage.py", line 13, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 87, in get_data_transformation_config
+    root_dir=Path(BASE_DIR) / "artifacts" / "data_transformation",
+                  ^^^^^^^^
+NameError: name 'BASE_DIR' is not defined
+[2025-07-02 08:22:52,433: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:22:52,780: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:22:52,843: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-07-02 08:22:52,846: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:22:52,847: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:22:52,851: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:22:52,859: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:22:52,859: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-07-02 08:22:52,860: INFO : data_ingestion : file already exists: 23 KB]
+[2025-07-02 08:22:52,866: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-07-02 08:22:52,870: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-07-02 08:22:52,878: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:22:52,879: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:22:52,891: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:22:52,892: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:22:52,892: INFO : common : Created directory at: artifacts/data_validation]
+[2025-07-02 08:22:52,984: INFO : main : >>>> stage Data Validation stage completed >>>>>]
+[2025-07-02 08:22:52,984: INFO : main : >> stage Data Transformation stage has started >>>>]
+[2025-07-02 08:22:52,993: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:22:52,999: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:22:53,004: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:22:53,005: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:22:53,005: INFO : common : Created directory at: artifacts/data_transformation]
+[2025-07-02 08:22:53,005: ERROR : main : name 'file_path' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 23, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/transformation_stage.py", line 13, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/config/configuration.py", line 92, in get_data_transformation_config
+    data_path=Path(file_path)
+                   ^^^^^^^^^
+NameError: name 'file_path' is not defined
+[2025-07-02 08:26:08,418: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:26:08,676: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:26:08,694: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-07-02 08:26:08,696: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:26:08,697: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:26:08,700: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:26:08,700: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:26:08,700: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-07-02 08:26:08,701: INFO : data_ingestion : file already exists: 23 KB]
+[2025-07-02 08:26:08,703: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-07-02 08:26:08,703: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-07-02 08:26:08,705: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:26:08,706: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:26:08,708: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:26:08,709: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:26:08,709: INFO : common : Created directory at: artifacts/data_validation]
+[2025-07-02 08:26:08,718: INFO : main : >>>> stage Data Validation stage completed >>>>>]
+[2025-07-02 08:26:08,718: INFO : main : >> stage Data Transformation stage has started >>>>]
+[2025-07-02 08:26:08,722: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:26:08,723: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:26:08,726: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:26:08,727: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:26:08,728: INFO : common : Created directory at: artifacts/data_transformation]
+[2025-07-02 08:26:08,739: ERROR : main : name 'train_test_split' is not defined]
+Traceback (most recent call last):
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/main.py", line 23, in <module>
+    obj.main()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/pipeline/transformation_stage.py", line 15, in main
+    data_transformation.training_test_split()
+  File "/home/moses/Documents/machine_learning/End_to_end_ml_project/src/my_project/Components/data_transformation.py", line 22, in training_test_split
+    train, test = train_test_split(data)
+                  ^^^^^^^^^^^^^^^^
+NameError: name 'train_test_split' is not defined
+[2025-07-02 08:27:48,066: INFO : utils : NumExpr defaulting to 2 threads.]
+[2025-07-02 08:27:48,307: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:27:58,671: INFO : main : >> stage Data Ingestion stage has started >>>>]
+[2025-07-02 08:27:58,676: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:27:58,679: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:27:58,683: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:27:58,684: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:27:58,685: INFO : common : Created directory at: artifacts/data_ingestion]
+[2025-07-02 08:27:58,685: INFO : data_ingestion : file already exists: 23 KB]
+[2025-07-02 08:27:58,690: INFO : main : >>>> stage Data Ingestion stage completed >>>>>]
+[2025-07-02 08:27:58,690: INFO : main : >> stage Data Validation stage has started >>>>]
+[2025-07-02 08:27:58,695: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:27:58,696: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:27:58,699: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:27:58,699: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:27:58,699: INFO : common : Created directory at: artifacts/data_validation]
+[2025-07-02 08:27:58,714: INFO : main : >>>> stage Data Validation stage completed >>>>>]
+[2025-07-02 08:27:58,715: INFO : main : >> stage Data Transformation stage has started >>>>]
+[2025-07-02 08:27:58,718: INFO : common : YML file: config/config.yaml loaded successfully]
+[2025-07-02 08:27:58,719: INFO : common : YML file: params.yaml loaded successfully]
+[2025-07-02 08:27:58,721: INFO : common : YML file: schema.yaml loaded successfully]
+[2025-07-02 08:27:58,721: INFO : common : Created directory at: artifacts]
+[2025-07-02 08:27:58,722: INFO : common : Created directory at: artifacts/data_transformation]
+[2025-07-02 08:27:58,893: INFO : data_transformation : splitted data into training and testing sets]
+[2025-07-02 08:27:58,893: INFO : data_transformation : (1199, 12)]
+[2025-07-02 08:27:58,894: INFO : data_transformation : (400, 12)]
+[2025-07-02 08:27:58,894: INFO : main : >>>> stage Data Transformation stage completed >>>>>]

@@ -1,0 +1,7 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+includedir=${prefix}/include
+ 
+Name: KBProto
+Description: KB extension headers
+Version: 1.0.7
+Cflags: -I${includedir}

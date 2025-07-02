@@ -1,0 +1,11 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+exec_prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+libdir=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda/lib
+includedir=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

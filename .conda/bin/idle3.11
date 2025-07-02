@@ -1,0 +1,5 @@
+#!/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda/bin/python3.11
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

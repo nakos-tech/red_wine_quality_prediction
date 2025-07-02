@@ -1,0 +1,7 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+includedir=${prefix}/include
+ 
+Name: DMXProto
+Description: DMX extension headers
+Version: 2.3.1
+Cflags: -I${includedir}

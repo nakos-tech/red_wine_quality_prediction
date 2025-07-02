@@ -1,0 +1,11 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xau
+Description: X authorization file management library
+Version: 1.0.12
+Requires: xproto
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXau

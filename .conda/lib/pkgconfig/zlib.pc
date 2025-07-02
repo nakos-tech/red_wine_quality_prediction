@@ -1,0 +1,13 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+exec_prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+libdir=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda/lib
+sharedlibdir=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda/lib
+includedir=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

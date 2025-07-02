@@ -1,0 +1,8 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+includedir=${prefix}/include
+includex11dir=${prefix}/include/X11
+ 
+Name: Xproto
+Description: Xproto headers
+Version: 7.0.33
+Cflags: -I${includedir}

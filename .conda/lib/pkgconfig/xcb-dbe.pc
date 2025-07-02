@@ -1,0 +1,11 @@
+prefix=/home/moses/Documents/machine_learning/End_to_end_ml_project/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Dbe
+Description: XCB Double Buffer Extension
+Version: 1.17.0
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-dbe
+Cflags: -I${includedir}
