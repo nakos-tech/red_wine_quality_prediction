@@ -2,6 +2,8 @@ from src.my_project import logger
 from src.my_project.pipeline.ingestion_stage import DataIngrestionTrainingPipeline
 from src.my_project.pipeline.validation_stage import DataValidationTrainingPipeline
 from src.my_project.pipeline.transformation_stage import DataTransformationTrainingPipeline
+from src.my_project.pipeline.model_training_stage import ModelTrainingPipeline
+
 
 if __name__ == "__main__":
     try:
@@ -23,6 +25,14 @@ if __name__ == "__main__":
         obj.main()
         logger.info(f">>>> stage {STAGE_NAME} completed >>>>>")
 
+        STAGE_NAME =" model training stage"
+        logger.info(f">> stage {STAGE_NAME} has started >>>>")
+        obj = ModelTrainingPipeline()
+        obj.main()
+        logger.info(f">>>> stage {STAGE_NAME} completed >>>>>")
+
+
     except Exception as e:
         logger.exception(e)
         raise e
+        
