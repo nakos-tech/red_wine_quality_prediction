@@ -1,8 +1,10 @@
 from src.my_project import *
 from src.my_project.utils.common import read_yml, create_directories, save_json, load_json
-from src.my_project.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainingConfig 
+from src.my_project.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainingConfig, ModelEvaluationConfig 
 from pathlib import Path
 from pathlib import Path
+from src.my_project.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH, SCHEMA_FILE_PATH
+
 
 BASE_DIR = Path.cwd()
 
@@ -128,3 +130,36 @@ class TrainingConfigurationManager():
 
 
         return model_training_config
+
+class EvaluationConfigurationManager:
+   
+    def __init__(
+        self,
+        config_filepath: Path = CONFIG_FILE_PATH,
+        params_filepath: Path = PARAMS_FILE_PATH,
+        schema_filepath: Path = SCHEMA_FILE_PATH):
+
+        self.config = read_yml(config_filepath)
+        self.params = read_yml(params_filepath)
+        self.schema = read_yml(schema_filepath)
+
+        create_directories([self.config.artifacts_root])
+
+    def get_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET
+
+        create_directories([self.config.model_evaluation.root_dir])  # ✅
+
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            model_path= config.model_path,
+            all_params=params,
+            metric_file_name= config.metric_file_name,
+            target_column = schema.name 
+        )
+
+        return model_evaluation_config

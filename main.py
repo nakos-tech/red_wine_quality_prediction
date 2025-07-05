@@ -3,7 +3,7 @@ from src.my_project.pipeline.ingestion_stage import DataIngrestionTrainingPipeli
 from src.my_project.pipeline.validation_stage import DataValidationTrainingPipeline
 from src.my_project.pipeline.transformation_stage import DataTransformationTrainingPipeline
 from src.my_project.pipeline.model_training_stage import ModelTrainingPipeline
-
+from src.my_project.pipeline.model_evaluation_stage import ModelEvaluationPipeline
 
 if __name__ == "__main__":
     try:
@@ -28,6 +28,12 @@ if __name__ == "__main__":
         STAGE_NAME =" model training stage"
         logger.info(f">> stage {STAGE_NAME} has started >>>>")
         obj = ModelTrainingPipeline()
+        obj.main()
+        logger.info(f">>>> stage {STAGE_NAME} completed >>>>>")
+
+        STAGE_NAME =" model evaluation stage"
+        logger.info(f">> stage {STAGE_NAME} has started >>>>")
+        obj = ModelEvaluationPipeline()
         obj.main()
         logger.info(f">>>> stage {STAGE_NAME} completed >>>>>")
 
