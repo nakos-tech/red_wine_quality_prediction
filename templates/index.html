@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Red Wine Quality Prediction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: url('/static/images/red-wine-bottle-glass-table-vineyard-tuscany-italy-108313993.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+
+    .header {
+      background-color: #007676;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .main-content {
+      flex: 1;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .form_box {
+      width: 520px;
+      background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+      padding: 50px 40px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .register_container .top header {
+      color: #007676;
+      text-align: center;
+      font-size: 23px;
+      margin-bottom: 15px;
+    }
+
+    .two_forms {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      margin-bottom: 15px;
+    }
+
+    .input_box {
+      position: relative;
+      border: 1px solid #007676;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .input_field {
+      height: 42px;
+      width: 100%;
+      font-size: 15px;
+      padding: 5px 10px;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #141414;
+    }
+
+    .input_box i {
+      color: #141414;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .submit {
+      background: #007676;
+      width: 120px;
+      height: 35px;
+      font-size: 15px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: block;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .submit:hover {
+      background: #005f5f;
+    }
+
+    .one {
+      color: #141414;
+    }
+
+    .footer {
+      background-color: #007676;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: auto;
+    }
+
+    .footer i {
+      margin: 0 15px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .footer i:hover {
+      color: #ccc;
+    }
+
+    .footer p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .prediction {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Red Wine Quality Prediction</h1>
+  </div>
+
+  <!-- Form Section -->
+  <div class="main-content">
+    <form class="form_box" action="/predict" method="post">
+      <div class="register_container">
+        <div class="top">
+          <header>Enter Wine Attributes</header>
+        </div>
+
+        <div class="two_forms">
+          <div class="input_box">
+            <input class="input_field" type="number" name="fixed_acidity" placeholder="Fixed Acidity" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="volatile_acidity" placeholder="Volatile Acidity" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="citric_acid" placeholder="Citric Acid" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="residual_sugar" placeholder="Residual Sugar" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="chlorides" placeholder="Chlorides" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="free_sulfur_dioxide" placeholder="Free Sulfur Dioxide" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="total_sulfur_dioxide" placeholder="Total Sulfur Dioxide" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="density" placeholder="Density" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="pH" placeholder="pH" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="sulphates" placeholder="Sulphates" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="alcohol" placeholder="Alcohol" required>
+          </div>
+          <div class="input_box">
+            <input class="input_field" type="number" name="quality" placeholder="Quality" required>
+          </div>
+        </div>
+
+        <button class="submit" type="submit">Predict</button>
+        {% if prediction is not none %}
+        <div class="prediction">
+          Predicted Wine Quality: {{ prediction }}
+        </div>
+        {% endif %}
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-x-twitter"></i>
+      <i class="fas fa-envelope"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <p>&copy; 2025 Red Wine Predictor</p>
+  </div>
+
+</body>
+</html>
